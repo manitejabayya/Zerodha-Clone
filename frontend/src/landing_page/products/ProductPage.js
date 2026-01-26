@@ -17,8 +17,13 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
-      <RightSection />
-            <LeftSection
+      <RightSection
+        imageURL="/assests/console.png"
+        productName="Console"
+        productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
+        learnMore=""
+      />
+      <LeftSection
         imageURL="/assests/coin.png"
         productName="Coin"
         productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
@@ -27,8 +32,13 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
-      <RightSection />
-            <LeftSection
+      <RightSection
+        imageURL="/assests/kiteconnect.png"
+        productName="Kite Connect API"
+        productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
+        learnMore=""
+      />
+      <LeftSection
         imageURL="/assests/varsity.png"
         productName="Varsity"
         productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
@@ -37,6 +47,10 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
+      <p className="text-center mt-5">
+        Want to know more about our technology stack ? Check out the
+        Zerodha.tech blog.
+      </p>
       <Universe />
     </>
   );
