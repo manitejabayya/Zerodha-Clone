@@ -14,3 +14,55 @@ code {
 .nav-link{
   margin-left: 40px;
 }
+
+/* Support page hero styling */
+#supportHero {
+  background: linear-gradient(135deg, #2f73c5, #1d4f90);
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+#supportWrapper {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+#supportWrapper a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#supportHero input {
+  width: 100%;
+  max-width: 520px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #c8d7eb;
+  margin: 16px 0 12px;
+}
+
+#supportHero a {
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#supportHero a:hover {
+  text-decoration: underline;
+}
+
+#supportHero ol {
+  padding-left: 20px;
+}
+
+#supportHero li + li {
+  margin-top: 8px;
+}
