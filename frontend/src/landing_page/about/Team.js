@@ -13,6 +13,7 @@ function Team() {
           <img
             src="/assests/nithinKamath.jpg"
             style={{ borderRadius: "100%", width: "60%" }}
+            alt="Nithin Kamath"
           />
           <h4 className="mt-5">Nithin Kamath</h4>
           <h5>Founder,CEO</h5>
@@ -34,15 +35,15 @@ function Team() {
 
           <p>
             Connect on{" "}
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="/" style={{ textDecoration: "none" }}>
               Homepage
             </a>{" "}
             /{" "}
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="/" style={{ textDecoration: "none" }}>
               TradingQnA
             </a>{" "}
             /
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="/" style={{ textDecoration: "none" }}>
               {" "}
               Twitter{" "}
             </a>
@@ -54,3 +55,4 @@ function Team() {
 }
 
 export default Team;
+

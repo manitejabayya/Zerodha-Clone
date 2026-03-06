@@ -8,27 +8,27 @@ function Universe() {
         <p>Extend your trading and investment experience even further with our partner platforms</p>
 
         <div className="col-4 p-3 mt-5">
-          <img src="/assests/smallcaseLogo.png" />
+          <img src="/assests/smallcaseLogo.png" alt="Smallcase logo" />
           <p className='text-small text-muted'>Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="/assests/" />
+          <img src="/assests/" alt="Partner platform logo" />
           <p className='text-small text-muted'>Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="/assests/" />
+          <img src="/assests/" alt="Partner platform logo" />
           <p className='text-small text-muted'>Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="/assests/smallcaseLogo.png" />
+          <img src="/assests/smallcaseLogo.png" alt="Smallcase logo" />
           <p className='text-small text-muted'>Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="/assests/" />
+          <img src="/assests/" alt="Partner platform logo" />
           <p className='text-small text-muted'>Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="/assests/" />
+          <img src="/assests/" alt="Partner platform logo" />
           <p className='text-small text-muted'>Thematic investment platform</p>
         </div>
         <button className='p-3 btn btn-primary fs-5 mb-5' style={{width:"20%",margin:"0 auto"}}>Sign up Now</button>
